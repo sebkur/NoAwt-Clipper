@@ -19,7 +19,7 @@
  */
 package com.bric.geom;
 
-import java.awt.geom.PathIterator;
+import noawt.java.awt.geom.PathIterator;
 
 /** This filters a <code>PathIterator</code> and makes sure
  * that each curve is of the smallest possible degree.

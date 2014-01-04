@@ -19,10 +19,10 @@
  */
 package com.bric.geom;
 
-import java.awt.Shape;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.PathIterator;
-import java.awt.geom.Rectangle2D;
+import noawt.java.awt.Shape;
+import noawt.java.awt.geom.AffineTransform;
+import noawt.java.awt.geom.PathIterator;
+import noawt.java.awt.geom.Rectangle2D;
 
 /** This class features an efficient and accurate
  * <code>getBounds()</code> method.  The <code>java.awt.Shape</code>
