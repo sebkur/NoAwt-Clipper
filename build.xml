@@ -47,7 +47,7 @@
 
 	<target name="dist-binary" depends="compile" description="generate the distribution">
 		<jar jarfile="${dist}/noawt-clipper.jar" basedir="${build}">
-			<fileset dir="." includes="License.html"/>
+			<fileset dir="." includes="com.bric.License.html"/>
 		</jar>
 	</target>
 
